@@ -147,7 +147,7 @@ img{
     border-color: #A5CEEC;
     width: 600px;
     margin: 30px 300px 0px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 /*Apple page*/
@@ -263,7 +263,45 @@ footer{
     text-align: center;
 }
 
+/*instruction page*/
+.stepBorder {
+  border-style: solid;
+  border-color: #A5CEEC;
+  width: 600px;
+  margin: 30px 0px 0px;
+  border-radius: 10px;
+}
+
+ul.breadcrumb {
+  padding: 20px 20px;
+  list-style: none;
+  background-color: #f2f3f5;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
 
 
+ul.breadcrumb li a {
+  color: #0C95FA;
+  text-decoration: none;
+}
 
+ul.fourStep {
+  display: inline;
+  padding:  20px 20px  20px 20px;
+  list-style: none;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
 
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
