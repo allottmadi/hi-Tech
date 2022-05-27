@@ -16,7 +16,6 @@ body{
 }
 
 div#container {
-
     width: 100%;
     max-width: 1200px;
     margin: 25px auto;
@@ -56,13 +55,14 @@ h5{
 }
 
 p {
-    font-size: 17px;
+    font-size: 0.7rem;
     padding:0px 30px 0px 30px ;
 }
 
 
-/*Navigation*/
-nav {
+/* Navigation*/  
+
+#nav {
     text-decoration: none;
     width:100%;
     max-width: 100%;
@@ -73,48 +73,48 @@ nav {
     font-family: Maven Pro, sans-serif;
 }
 
-nav ul {
+#nav ul {
     text-decoration: none;
     padding-left: 20px;
     margin: -8px -6px -8px -8px;
-  }
+}
   
-  nav ul li {
+#nav ul li {
     text-decoration: none;
     list-style: none;
     margin: 0 2.5em 0 0;
     float: right;
     font-size: 1.2em;
-  }
+}
 
-  a:link{
-      color: #0C95FA;
-      text-decoration: none;
-  }
+#nav a:link{
+    color: #0C95FA;
+    text-decoration: none;
+}
   
-  a:visited{
-      color:#0C95FA; 
-      text-decoration: none;
-      padding: 0.5em;
-      border-style: solid;
-      border-radius: 30px;
-  }
+#nav a:visited{
+    color:#0C95FA; 
+    text-decoration: none;
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 30px;
+}
   
-  a:hover{
-      color:#E9E9E9;
-      text-decoration: none;
-      padding: 0.5em;
-      border-style: solid;
-      border-radius: 30px;
-  }
+#nav a:hover{
+    color:#E9E9E9;
+    text-decoration: none;
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 30px;
+}
   
-  a:active{
-      color:#66b9f5; 
-      text-decoration: none;
-      padding: 0.5em;
-      /* border-style: solid;
-      border-radius: 30px; */
-  }
+#nav a:active{
+    color:#66b9f5; 
+    text-decoration: none;
+    padding: 0.5em;
+    border-style: solid;
+    border-radius: 30px;
+}
 
   #logo{
     position: relative;
@@ -155,9 +155,9 @@ img{
     display: flex;
     flex-direction: column;
     /* background-color: DodgerBlue; */
-  }
+}
   
-  .flex-container-products > div {
+.flex-container-products > div {
     background-color: #A5CEEC;
     border-radius: 30px;
     width: 300px;
@@ -166,19 +166,19 @@ img{
     text-align: center;
     line-height: 75px;
     font-size: 30px;
-  }
+}
 
-  .flex-container-products img {
-      width: 200px;
-      height: 200px;
-      margin: 50px;
+.flex-container-products img {
+    width: 200px;
+    height: 200px;
+    margin: 50px;
       
-  }
+}
 
-  .flex-container-products > div:hover{
-        background-color: #1692ED;
-      
-  }
+.flex-container-products > div:hover{
+    background-color: #1692ED;
+    
+}
 
 
 
@@ -194,9 +194,9 @@ img{
     100% {
       transform: rotate(8deg);
     }
-  }
+}
   
-  .object {
+.object {
     position: absolute;
     animation: sway 2.4s infinite;
     animation-timing-function: ease-in-out;
@@ -208,9 +208,9 @@ img{
     height: 5%;
     z-index: 999;
     text-transform: uppercase;
-  }
+}
   
-  .object-shape {
+.object-shape {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -225,34 +225,34 @@ img{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-  }
+}
   
-  .object-shape span {
+.object-shape span {
     font-size: 22px;
     color:white;
-  }
+}
   
-  .object-rope {
+.object-rope {
     height: 100%;
     width: 5px;
     background-color: #2187C7;
     content: "";
     display: block;
     margin-left: 50%;
-  }
+}
   
-  .content {
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
     max-width: 500px;
     padding: 35vh 20px 20px 20px
-  }
+}
   
-  .message {
+.message {
     margin-top: -10px;
-  }
+}
 
   /*Instructions Page*/
 .stepBorder {
@@ -263,15 +263,44 @@ img{
   border-radius: 10px;
 }
 
+/* Breadcrumb Nav*/
+
+.breadcrumb a:link{
+    color: #0C95FA;
+    text-decoration: none;
+}
+
+.breadcrumb a:visited{
+    color:#0C95FA; 
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+.breadcrumb a:hover{
+    color:#0C95FA;
+    text-decoration: none;
+}
+
+.breadcrumb a:active{
+    color:#66b9f5; 
+    text-decoration: none;
+    padding: 0.5em;
+}
+
 ul.breadcrumb {
-  padding: 20px 20px;
+  padding: 5px 20px;
   list-style: none;
   background-color: #f2f3f5;
+  border-radius: 20px;
+  width: 1100;
+  margin: 10px 30px;
+  
 }
 
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 15px;
+  padding: 10px;
 }
 
 
@@ -280,11 +309,18 @@ ul.breadcrumb li a {
   text-decoration: none;
 }
 
+ul.breadcumb li a:hover{
+    color:#E9E9E9;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
 ul.fourStep {
   display: inline;
   padding:  20px 20px  20px 20px;
   list-style: none;
 }
+
 .arrow {
   border: solid black;
   border-width: 0 3px 3px 0;
