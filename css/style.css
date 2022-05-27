@@ -254,6 +254,21 @@ img{
   .message {
     margin-top: -10px;
   }
+ 
+/*iPhone Page*/
+.grid{
+  max-width: 1000px;
+  display:grid;
+  /*grid-template-columns: repeat(3, 1fr); */
+   /*grid-template-columns: repeat(3,minmax(200px, 1fr));  */
+  grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
+  grid-template-rows: 330px 250px;
+  /*grid-column-gap: 20px;
+  grid-row-gap: 15px; */
+  grid-gap: 15px; /*Sorts both the row and column gap, Row first */
+}
+
+
 /* Breadcrumb Nav*/
 
 .breadcrumb a:link{
@@ -277,7 +292,9 @@ img{
   text-decoration: none;
   padding: 0.5em;
 }
-  /*Instructions Page*/
+
+
+/*Instructions Page*/
 .instructionsBorder {
   border-style: solid;
   border-color: #A5CEEC;
