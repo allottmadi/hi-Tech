@@ -93,15 +93,27 @@ nav ul {
   }
   
   a:visited{
-      color:white; text-decoration: none;
+      color:white; 
+      text-decoration: none;
+      padding: 0.5em;
+      border-style: solid;
+      border-radius: 30px;
   }
   
   a:hover{
-      color:#E9E9E9; text-decoration: none;
+      color:#E9E9E9;
+      text-decoration: none;
+      padding: 0.5em;
+      border-style: solid;
+      border-radius: 30px;
   }
   
   a:active{
-      color:#E9E9E9; text-decoration: none;
+      color:#E9E9E9; 
+      text-decoration: none;
+      padding: 0.5em;
+      border-style: solid;
+      border-radius: 30px;
   }
 
   #logo{
