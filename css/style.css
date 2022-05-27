@@ -61,7 +61,8 @@ p {
 }
 
 
-/*Navigation*/
+/* Navigation*/  
+
 nav {
     text-decoration: none;
     width:100%;
@@ -112,8 +113,8 @@ nav ul {
       color:#66b9f5; 
       text-decoration: none;
       padding: 0.5em;
-      /* border-style: solid;
-      border-radius: 30px; */
+      border-style: solid;
+      border-radius: 30px;
   }
 
   #logo{
