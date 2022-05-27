@@ -21,7 +21,7 @@ div#container {
     max-width: 1200px;
     margin: 25px auto;
     background-color: white;
-    box-shadow: 0px 0px 25px rgb(0 0 0 / 50%);
+    /* box-shadow: 0px 0px 25px rgb(0 0 0 / 50%); */
     font: 10vh;
 }
 
@@ -39,8 +39,8 @@ h2{
 }
 
 h3{
-    font-size: 1.2rem;
-    padding:0px 0px 0px 30px ;
+    font-size: 1.5rem;
+    padding:0px 0px 0px 0px ;
 }
 
 h4{
@@ -56,17 +56,17 @@ h5{
 }
 
 p {
-    font-size: 17px;
+    font-size: 0.7rem;;
     padding:0px 30px 0px 30px ;
 }
 
 
 /* Navigation*/  
 
-nav {
+#nav {
     text-decoration: none;
     width:100%;
-    max-width: 1200px;
+    max-width: 100%;
     max-height: 92px;
     padding:22px 10px 25px;
     background: #A5CEEC;
@@ -74,13 +74,13 @@ nav {
     font-family: Maven Pro, sans-serif;
 }
 
-nav ul {
+#nav ul {
     text-decoration: none;
     padding-left: 20px;
     margin: -8px -6px -8px -8px;
   }
   
-  nav ul li {
+  #nav ul li {
     text-decoration: none;
     list-style: none;
     margin: 0 2.5em 0 0;
@@ -88,12 +88,12 @@ nav ul {
     font-size: 1.2em;
   }
 
-  a:link{
+  #nav a:link{
       color: #0C95FA;
       text-decoration: none;
   }
   
-  a:visited{
+  #nav a:visited{
       color:#0C95FA; 
       text-decoration: none;
       padding: 0.5em;
@@ -101,7 +101,7 @@ nav ul {
       border-radius: 30px;
   }
   
-  a:hover{
+  #nav a:hover{
       color:#E9E9E9;
       text-decoration: none;
       padding: 0.5em;
@@ -113,8 +113,8 @@ nav ul {
       color:#66b9f5; 
       text-decoration: none;
       padding: 0.5em;
-      border-style: solid;
-      border-radius: 30px;
+      /* border-style: solid;
+      border-radius: 30px; */
   }
 
   #logo{
@@ -254,17 +254,31 @@ img{
   .message {
     margin-top: -10px;
   }
+/* Breadcrumb Nav*/
 
-footer{
-    background-color: none;
-    padding: 20px;
-    color: black;
-    font-size: .8rem;
-    text-align: center;
+.breadcrumb a:link{
+  color: #0C95FA;
+  text-decoration: none;
 }
 
-/*instruction page*/
-.stepBorder {
+.breadcrumb a:visited{
+  color:#0C95FA; 
+  text-decoration: none;
+  padding: 0.5em;
+}
+
+.breadcrumb a:hover{
+  color:#0C95FA;
+  text-decoration: none;
+}
+
+.breadcrumb a:active{
+  color:#66b9f5; 
+  text-decoration: none;
+  padding: 0.5em;
+}
+  /*Instructions Page*/
+.instructionsBorder {
   border-style: solid;
   border-color: #A5CEEC;
   width: 600px;
@@ -273,14 +287,18 @@ footer{
 }
 
 ul.breadcrumb {
-  padding: 20px 20px;
+  padding: 5px 20px;
   list-style: none;
   background-color: #f2f3f5;
+  border-radius: 20px;
+  width: 1100;
+  margin: 10px 30px;
 }
 
 ul.breadcrumb li {
   display: inline;
-  font-size: 18px;
+  font-size: 15px;
+  padding: 10px;
 }
 
 
@@ -288,6 +306,12 @@ ul.breadcrumb li a {
   color: #0C95FA;
   text-decoration: none;
 }
+ul.breadcumb li a:hover{
+  color:#E9E9E9;
+  text-decoration: none;
+  padding: 0.5em;
+}
+
 
 ul.fourStep {
   display: inline;
@@ -304,4 +328,12 @@ ul.fourStep {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+footer{
+    background-color: none;
+    padding: 20px;
+    color: black;
+    font-size: .8rem;
+    text-align: center;
 }
