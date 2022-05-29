@@ -9,6 +9,7 @@
     <link rel ="preconnect" hred="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quiz.css">
 </head>
 
         <nav id = "nav">
@@ -51,11 +52,32 @@
                 <li><b>4. Drag the slider up or down to select the font size you want</b></li>
             </ul>
             </div>
-
-
-
         </article>
 </div>
+
+  After finishing watching the video please fill out the quiz to see how much you understood. There are four questions. 
+
+  <br>
+  <br>
+
+    <div class="container">
+      <div id="question-container" class="hide">
+       <div id="question">Question</div>
+         <div id="answer-buttons" class="btn-grid">
+           <button class="btn">Answer 1</button>
+           <button class="btn">Answer 2</button>
+           <button class="btn">Answer 3</button>
+           <button class="btn">Answer 4</button>
+     </div>
+       </div>
+
+        <div class="controls">
+         <button id="start-btn" class="start-btn btn">Start</button>
+         <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
         <footer>&copy;HiTech 2022</footer>
     
 </body>
