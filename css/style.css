@@ -155,6 +155,7 @@ img{
 .flex-container-products {
     display: flex;
     flex-direction: column;
+    align-items: center;
     /* background-color: DodgerBlue; */
   }
   
@@ -180,7 +181,6 @@ img{
         background-color: #1692ED;
       
   }
-
 
 
 /*samsung page*/
