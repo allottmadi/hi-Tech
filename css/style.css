@@ -145,9 +145,14 @@ img{
     
     border-style: solid;
     border-color: #A5CEEC;
-    width: 600px;
-    margin: 30px 300px 0px;
+    width: 900px;
+    margin: 30px 150px 0px;
     border-radius: 30px;
+}
+
+.border p {
+  font: 100 1rem Maven Pro, sans-serif;
+    font-weight: none;
 }
 
 /*Apple page*/
