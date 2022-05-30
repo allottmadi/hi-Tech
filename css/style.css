@@ -11,7 +11,7 @@ html{
 
 body{
     color:#454959;
-    font-size: 1rem;
+    font-size: 0.85rem;
     font-family: poppins, sans-serif;
 }
 
@@ -20,13 +20,13 @@ div#container {
     width: 100%;
     max-width: 1200px;
     margin: 25px auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     /* box-shadow: 0px 0px 25px rgb(0 0 0 / 50%); */
     font: 10vh;
 }
 
 h1, h2{
-    font: 600 2.5rem/1.1 Maven Pro, sans-serif;
+    font: 600 2.5rem/1.1 poppins, sans-serif;
     font-weight: none;
 }
 
@@ -40,7 +40,7 @@ h2{
 
 h3{
     font-size: 1.5rem;
-    padding:0px 0px 0px 0px ;
+    padding:0px 30px ;
 }
 
 h4{
@@ -71,7 +71,7 @@ p {
     padding:22px 10px 25px;
     background: #A5CEEC;
     font-size: 13px;
-    font-family: Maven Pro, sans-serif;
+    font-family: poppins, sans-serif;
 }
 
 #nav ul {
@@ -151,7 +151,7 @@ img{
 }
 
 .border p {
-  font: 100 1rem Maven Pro, sans-serif;
+  font: 100 0.75rem poppins, sans-serif;
     font-weight: none;
 }
 
