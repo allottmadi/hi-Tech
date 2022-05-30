@@ -300,6 +300,11 @@ img{
 
 
 /*Instructions Page*/
+video{
+  margin: 0px 30px;
+  border-radius: 10px;
+}
+
 .instructionsBorder {
   border-style: solid;
   border-color: #A5CEEC;
