@@ -119,14 +119,12 @@ p {
       border-radius: 30px; */
   }
 
-<<<<<<< HEAD
     .logo{
       float: left;
       width: 120px;
       margin: -20px -10px 0px 0;
   }
 
-=======
   #logo{
     position: relative;
     width:100%;
@@ -139,7 +137,6 @@ p {
   margin: 20px 100px;
 
 }
->>>>>>> 0f1c9671f99897f8b9185749248193cd328e108c
 
 img{
     width:15%;
