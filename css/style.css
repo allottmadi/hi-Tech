@@ -117,12 +117,12 @@ p {
       border-radius: 30px; */
   }
 
-  #logo{
-    position: relative;
-    width:100%;
-    max-width: 50px;
-    background: #EDEBEB;
-} 
+    .logo{
+      float: left;
+      width: 120px;
+      margin: -20px -10px 0px 0;
+  }
+
 
 img{
     width:15%;
