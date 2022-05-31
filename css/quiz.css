@@ -1,5 +1,10 @@
 
-  
+  #quiz-intro{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5%;
+  }
+
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -18,7 +23,7 @@
   }
   
   .btn:hover {
-    border-color: black;
+    border: solid black;
   }
   
   .btn.correct {
@@ -27,7 +32,6 @@
   }
   
   .btn.wrong {
-    /* --hue: var(--hue-wrong); */
     background-color: red;
     color: white;
   }
