@@ -1,11 +1,10 @@
 
-
-  :root {
-    --hue-neutral: 200;
-    --hue-wrong: 0;
-    --hue-correct: 145;
+  #quiz-intro{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5%;
   }
-  
+
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -15,25 +14,26 @@
   
   .btn {
     --hue: var(--hue-neutral);
-    border: 1px solid hsl(var(--hue), 100%, 30%);
-    background-color: hsl(var(--hue), 100%, 50%);
+    border: 1px solid ;
+    background-color: #A5CEEC;
     border-radius: 5px;
     padding: 5px 10px;
-    color: white;
+    color: rgb(70, 69, 69);
     outline: none;
   }
   
   .btn:hover {
-    border-color: black;
+    border: solid black;
   }
   
   .btn.correct {
-    --hue: var(--hue-correct);
-    color: black;
+    background-color: green;
+    color: white;
   }
   
   .btn.wrong {
-    --hue: var(--hue-wrong);
+    background-color: red;
+    color: white;
   }
   
   .start-btn, .next-btn {
