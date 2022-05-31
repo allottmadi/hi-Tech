@@ -4,6 +4,41 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+const questions = [
+  {
+    question: 'What was the first step?',
+    answers: [
+      { text: 'To head to the settings application', correct: true },
+      { text: 'To go to safari and open up keyboard', correct: false }
+    ]
+  },
+  {
+    question: 'When sliding to the right of the slider does this...?',
+    answers: [
+      { text: 'increase the font size', correct: true },
+      { text: 'decrease the font size', correct: false },
+      { text: 'nothing, it is just a fun game', correct: false },
+      { text: 'creates a scale to gradually go up in font sizes incrementally', correct: true }
+    ]
+  },
+  {
+    question: 'In settings where do you go when on the main page?',
+    answers: [
+      { text: 'Messages', correct: false },
+      { text: 'Display and Brightness', correct: true },
+      { text: 'Facebook', correct: false },
+      { text: 'Camera', correct: false }
+    ]
+  },
+  {
+    question: 'When changing your text size, does it chnage everything on your phone, or just text messages?',
+    answers: [
+      { text: 'No, it only changes message size', correct: false },
+      { text: 'Yes, it changes everything', correct: true }
+    ]
+  }
+]
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -76,37 +111,3 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-const questions = [
-  {
-    question: 'What was the first step?',
-    answers: [
-      { text: 'To head to the settings application', correct: true },
-      { text: 'To go to safari and open up keyboard', correct: false }
-    ]
-  },
-  {
-    question: 'When sliding to the right of the slider does this...?',
-    answers: [
-      { text: 'increase the font size', correct: true },
-      { text: 'decrease the font size', correct: false },
-      { text: 'nothing, it is just a fun game', correct: false },
-      { text: 'creates a scale to gradually go up in font sizes incrementally', correct: true }
-    ]
-  },
-  {
-    question: 'In settings where do you go when on the main page?',
-    answers: [
-      { text: 'Messages', correct: false },
-      { text: 'Display and Brightness', correct: true },
-      { text: 'Facebook', correct: false },
-      { text: 'Camera', correct: false }
-    ]
-  },
-  {
-    question: 'Did you find this helpful?',
-    answers: [
-      { text: 'No', correct: false },
-      { text: 'Yes', correct: true }
-    ]
-  }
-]
