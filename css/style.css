@@ -91,6 +91,8 @@ p {
   #nav a:link{
       color: #0C95FA;
       text-decoration: none;
+      padding: 0.5em;
+      
   }
   
   #nav a:visited{
@@ -98,7 +100,7 @@ p {
       text-decoration: none;
       padding: 0.5em;
       border-style: solid;
-      border-radius: 30px;
+      border-radius: 20px;
   }
   
   #nav a:hover{
@@ -106,7 +108,7 @@ p {
       text-decoration: none;
       padding: 0.5em;
       border-style: solid;
-      border-radius: 30px;
+      border-radius: 50px;
   }
   
   a:active{
@@ -123,6 +125,12 @@ p {
     max-width: 50px;
     background: #EDEBEB;
 } 
+.logo img{
+
+  float: left;
+  margin: 20px 100px;
+
+}
 
 img{
     width:15%;
@@ -308,8 +316,8 @@ video{
 .instructionsBorder {
   border-style: solid;
   border-color: #A5CEEC;
-  width: 600px;
-  margin: 30px 0px 0px;
+  width: 1130px;
+  margin: 30px 30px 0px;
   border-radius: 10px;
 }
 
