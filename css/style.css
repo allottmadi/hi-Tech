@@ -35,11 +35,12 @@ h1{
 }
 
 h2{
-    font-size: 1.25rem;
+    font-size: 1.5rem;
+    padding:0px 30px ;
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding:0px 30px ;
 }
 
@@ -127,7 +128,7 @@ p {
 img{
     width:15%;
     float: right;
-    margin: 20px 100px;
+    margin: 30px;
 }
 
 .name img {
@@ -176,14 +177,14 @@ img{
   }
 
   .flex-container-products img {
-      width: 200px;
-      height: 200px;
-      margin: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
       
   }
 
   .flex-container-products > div:hover{
-        background-color: #1692ED;
+    background-color: #1692ED;
       
   }
 
@@ -261,17 +262,50 @@ img{
   }
  
 /*iPhone Page*/
-.grid{
-  max-width: 1000px;
-  display:grid;
-  /*grid-template-columns: repeat(3, 1fr); */
-   /*grid-template-columns: repeat(3,minmax(200px, 1fr));  */
-  grid-template-columns: repeat(auto-fit,minmax(400px, 1fr));
-  grid-template-rows: 330px 250px;
-  /*grid-column-gap: 20px;
-  grid-row-gap: 15px; */
-  grid-gap: 15px; /*Sorts both the row and column gap, Row first */
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+section img {
+  display: inline-block;
+  width: 85%;
+  margin: 10px 10px 0px 30px;
+}
+
+section p {
+  display: inline-block;
+  padding: 0px 15px;
+  margin: 10px 30px;
+}
+
+.section:hover{
+  border: #0C95FA;
+    
+}
+
+
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 1.5rem; 
+}
+
+.gallery__img {
+  width: 550px;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+} */
 
 
 /* Breadcrumb Nav*/
