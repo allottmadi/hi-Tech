@@ -67,8 +67,8 @@ p {
     text-decoration: none;
     width:100%;
     max-width: 100%;
-    max-height: 92px;
-    padding:22px 10px 25px;
+    max-height: 95px;
+    padding:40px 10px 25px;
     background: #A5CEEC;
     font-size: 13px;
     font-family: poppins, sans-serif;
@@ -125,7 +125,7 @@ p {
       margin: -20px -10px 0px 0;
   }
 
-  #logo{
+  /* #logo{
     position: relative;
     width:100%;
     max-width: 50px;
@@ -136,7 +136,7 @@ p {
   float: left;
   margin: 20px 100px;
 
-}
+} */
 
 img{
     width:15%;
