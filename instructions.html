@@ -1,98 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HiTech</title>
-    <link rel = "preconnect" href ="https://fonts.googleapis.com">
-    <link rel ="preconnect" hred="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/quiz.css">
-</head>
-<div id="container">
-        <nav id = "nav">
-          <img src="image/logo.png" alt="logo" class="logo">
-            <ul>
-                <li><a href="samsung.html">Samsung</a></li>
-                <li><a href="apple.html">Apple</a></li>
-                <li><a href="index.html">Home</a></li>
- 
-            </ul>
-        </nav>
-<body>
-  <div id="container">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HiTech</title>
+      <link rel = "preconnect" href ="https://fonts.googleapis.com">
+      <link rel ="preconnect" hred="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/quiz.css">
+  </head>
 
-    <nav id = "nav">
-      <ul>
-        <li><a href="samsung.html">Samsung</a></li>
-        <li><a href="apple.html">Apple</a></li>
+  <body>
+    <div id="container">
+      <nav>
+        <img class ="logo" src="image/logo.png" alt = "logo">
+        <ul class = "nav_links">
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "apple.html">Apple</a></li>
+            <li><a href = "samsung.html">Samsung</a></li>
+            <li><a href = "instructions.html">instructions</a></li>
+        </ul>
+      </nav>
+
+      <ul class="breadcrumb">
         <li><a href="index.html">Home</a></li>
+        <i class="arrow right"></i>
+        <li><a href="apple.html">Apple</a></li>
+        <i class="arrow right"></i>
+        <li><a href="iphone.html">Iphone</a></li>
+        <i class="arrow right"></i>
+        <li><a href="instructions.html">How to change font size</a></li>
       </ul>
-    </nav>
-
-    <ul class="breadcrumb">
-      <li><a href="index.html">Home</a></li>
-      <i class="arrow right"></i>
-      <li><a href="apple.html">Apple</a></li>
-      <i class="arrow right"></i>
-      <li><a href="iphone.html">Iphone</a></li>
-      <i class="arrow right"></i>
-      <li><a href="instructions.html">How to change font size</a></li>
-    </ul>
   
-    <h3>How to change the font size</h3>
-    <article>
-      <video width="1130" controls>
-        <source src="video/text_size.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+      <h3>How to change the font size</h3>
+      <article>
 
-
-                <h3>How to change the font size</h3>
-        <article>
-          <video width="1130" controls>
-            <source src="video/text_size.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-
-            <div class = "instructionsBorder">
-            
-              <ol class = "fourStep">
-                <b>Four step process</b>
-                <li><b> First step is to go into the settings menu</b></li>
-                <li><b> Scroll down and click on Display and Brightness</b></li>
-                <li><b> Then select text size</b></li>
-                <li><b> Drag the slider up or down to select the font size you want</b></li>
-            </ol>
-            </div>
-        </article>
-</div>
-
- <h2><center> After finishing the video, please take this four question quiz to see how you went.</center></h2>
-  <br>
-  <br>
-
+        <video width="1130" controls>
+          <source src="video/text_size.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      
+        <div class = "instructionsBorder">
+          <ol class = "fourStep">
+            <b>Four step process</b>
+            <li><b> First step is to go into the settings menu</b></li>
+            <li><b> Scroll down and click on Display and Brightness</b></li>
+            <li><b> Then select text size</b></li>
+            <li><b> Drag the slider up or down to select the font size you want</b></li>
+          </ol>
+        </div>
+      </article>
+    </div>
+  
+    <h3><center> After finishing the video, please take this four question quiz to see how you went.</center></h3>
+    <br>
+    <br>
+  
     <div class="container">
       <div id="question-container" class="hide">
-       <div id="question">Question</div>
-         <div id="answer-buttons" class="btn-grid">
-           <button class="btn">Answer 1</button>
-           <button class="btn">Answer 2</button>
-           <button class="btn">Answer 3</button>
-           <button class="btn">Answer 4</button>
-     </div>
-       </div>
+        <div id="question">Question</div>
 
-        <div class="controls">
-         <button id="start-btn" class="start-btn btn">Start</button>
-         <button id="next-btn" class="next-btn btn hide">Next</button>
+        <div id="answer-buttons" class="btn-grid">
+          <button class="btn">Answer 1</button>
+          <button class="btn">Answer 2</button>
+          <button class="btn">Answer 3</button>
+          <button class="btn">Answer 4</button>
         </div>
-    </div>
+      </div>
     
-    <script src="js/quiz.js"></script>
-        <footer>&copy;HiTech 2022</footer>
+      <div class="controls">
+        <button id="start-btn" class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
+      </div>
     </div>
-</body>
+  
+    <script src="js/quiz.js"></script>
+    <footer>&copy;HiTech 2022</footer>
+    </div>
+  </body>
 </html>

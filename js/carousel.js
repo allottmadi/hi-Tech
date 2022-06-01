@@ -7,8 +7,7 @@ var time = 3000;	// Time Between Switch
 images[0] = "image/apple.png";
 images[1] = "image/samsung2.gif";
 images[2] = "image/mac.png";
-images[3] = "image/ipad.png";
-images[4] = "image/iphone.png";
+images[3] = "image/iphone.png";
 
 // Change Image
 function changeImg(){

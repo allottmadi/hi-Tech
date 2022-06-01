@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HiTech</title>
-    <link rel = "preconnect" href ="https://fonts.googleapis.com">
-    <link rel ="preconnect" hred="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HiTech</title>
+        <link rel = "preconnect" href ="https://fonts.googleapis.com">
+        <link rel ="preconnect" hred="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
+    <body>
+        <div id="container">
+            <nav>
+                <img class ="logo" src="image/logo.png" alt = "logo">
+                <ul class = "nav_links">
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "apple.html">Apple</a></li>
+                    <li><a href = "samsung.html">Samsung</a></li>
+                </ul>
+            </nav>
 
-<body>
-    
-    <div id="container">
-       
-
-        <nav id = "nav">
-            <img src="image/logo.png" alt="logo" class="logo">
-            <ul>
-                <li><a href="samsung.html">Samsung</a></li>
-                <li><a href="apple.html">Apple</a></li>
+            <ul class="breadcrumb">
                 <li><a href="index.html">Home</a></li>
- 
+                <i class="arrow right"></i>
+                <li><a href="apple.html">Apple</a></li>
+                <i class="arrow right"></i>
             </ul>
-        </nav>
-
-        <ul class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <i class="arrow right"></i>
-            <li><a href="apple.html">Apple</a></li>
-            <i class="arrow right"></i>
-        </ul>
 
 
-        <article>
-            <div class="carousel" >
-                <img name="slide" width="auto">
-                <h3>Apple User Guide</h3>
-                <p>Everything you need to know about Apple Products.</p>
-            </div>
-
-        
-
-            <div class = "border">
-            <p>This page is to help you with your apple devices showing you how to back up your phone, turn your laptop on and change the text size as well as some other instructions. </p>
-            </div>
-
-            <div class="flex-container-products">
-            <br>
-            <br>
-            <br>
-                Here is your iPhone User Guide: Here you will find the instructions to help you with your iPhone. Click the image below to see your guide.
-                <div>
-                    <a href="iphone.html"><img src="image/iphone.png" alt="Iphone" ></a>
+            <article>
+                <div class="carousel" >
+                    <img id = "rotate" name="slide" width="auto">
+                    <h3>Device User Guide</h3>
+                    <p>Here you will find the instructions to help you with your device issues</p>
                 </div>
 
-                Here is your iPad User Guide: Here you will find the instructions to help you with your iPad. Click the image below to see your guide.
-                <div>
-                    <img src="image/ipad.png" alt="Iphone" >
+
+                <div class = "border">
+                    <p>This page is to help you with your apple devices showing you how to back up your phone, turn your laptop on and change the text size as well as some other instructions. </p>
                 </div>
 
-                Here is your iMac User Guide: Here you will find the instructions to help you with your iMac. Click the image below to see your guide.
+                <div class="flex-container-products">
+                    <br>
+                    <br>
+                    <br>
+                    <!-- Iphone User Guide -->
+                    <p>>Here is your iPhone User Guide: Here you will find the instructions to help you with your iPhone. Click the image below to see your guide.</p>
+                    <div>
+                        <a href="iphone.html"><img src="image/iphone.png" alt="Iphone" ></a>
+                    </div>
 
-                <div>
-                    <img src="image/mac.png" alt="Iphone" >
-                </div>  
-            </div>
+                    <!-- iPad User Guide -->
+                    <p>Here is your iPad User Guide: Here you will find the instructions to help you with your iPad. Click the image below to see your guide.</p>
+                    <div>
+                        <img src="image/ipad.png" alt="Iphone" >
+                    </div>
+
+                    <!-- iMac User Guide -->
+                    <p>Here is your iMac User Guide: Here you will find the instructions to help you with your iMac. Click the image below to see your guide.</p>
+                    <div>
+                        <img src="image/mac.png" alt="Iphone" >
+                    </div>  
+                </div>
         </article>
 
         <footer>&copy;HiTech 2022</footer>
