@@ -67,7 +67,7 @@ img{
 }
 
 
-/* Navigation*/
+/* Madi Navigation*/
 
 li, a {
   font-family: "poppins", sans-serif;
@@ -115,7 +115,10 @@ a:visited{
 }
 
 
-/* .nav_links li a:active{
+/* 
+Jess Navigation
+
+.nav_links li a:active{
   color:#0C95FA; 
   text-decoration: none;
   padding: 0.5em;
