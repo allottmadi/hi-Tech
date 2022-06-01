@@ -27,12 +27,12 @@
   }
   
   .btn.correct {
-    background-color: green;
+    background-color: #18C956;
     color: white;
   }
   
   .btn.wrong {
-    background-color: red;
+    background-color: #FB4D3D;
     color: white;
   }
   
