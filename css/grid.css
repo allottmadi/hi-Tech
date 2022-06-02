@@ -9,6 +9,7 @@
 }
 
 .item {
+    cursor: pointer;
     color: #fff;
     padding: 0.85em;
     background: #9dc2e7;
