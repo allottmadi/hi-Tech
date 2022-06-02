@@ -1,11 +1,38 @@
+/* Homepage */
+.home{
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 100px; 
+    margin: 0px 20px ;
+}
+
+.item-home {
+    cursor: pointer;
+    color: black;
+    padding: 0.85em;
+    /* background: #9dc2e7;  */
+    /* border: solid 1px rgba(110,133,156,0.15); */
+    border-radius: 0.3em;
+}
+
+.home-images{
+    width: 85%;
+    margin: 1px;
+    padding: 10px;
+    align-items: center;
+}
+
+
+/* iPhone Page */
 .grid{
     max-width: 1000px;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-   grid-template-rows: 520px 500px;
-   grid-gap: 80px; 
-   grid-auto-flow: minmax();
-   margin: 45px auto;
+    grid-template-rows: 520px 500px;
+    grid-gap: 80px; 
+    grid-auto-flow: minmax();
+    margin: 45px auto;
 }
 
 .item {
@@ -22,7 +49,6 @@
     margin: 1px;
     padding: 10px;
 }
-
 
 @media screen and (min-width: 100px) {
   article {
