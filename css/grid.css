@@ -3,11 +3,12 @@
     max-width: 1000px;
     display: grid;
     grid-template-columns:repeat(2, 1fr);
-    grid-gap: 100px; 
-    margin: 0px 20px ;
+    grid-gap: 50px; 
+    margin: 0px 300px ;
 }
 
 .item-home {
+    justify-content: center;
     cursor: pointer;
     color: black;
     padding: 0.85em;
@@ -17,7 +18,7 @@
 }
 
 .home-images{
-    width: 85%;
+    width: 100%;
     margin: 1px;
     padding: 10px;
     align-items: center;
