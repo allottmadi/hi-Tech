@@ -5,6 +5,10 @@
     padding: 5%;
   }
 
+  #question{
+    text-align: center;
+  }
+
   .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
