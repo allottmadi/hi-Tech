@@ -15,10 +15,10 @@ const questions = [
   {
     question: 'When sliding to the right of the slider does this...?',
     answers: [
-      { text: 'increase the font size', correct: true },
-      { text: 'decrease the font size', correct: false },
-      { text: 'nothing, it is just a fun game', correct: false },
-      { text: 'creates a scale to gradually go up in font sizes incrementally', correct: true }
+      { text: 'Increase the font size', correct: true },
+      { text: 'Decrease the font size', correct: false },
+      { text: 'Nothing, it is just a fun game', correct: false },
+      { text: 'Creates a scale to gradually go up in font sizes incrementally', correct: true }
     ]
   },
   {
