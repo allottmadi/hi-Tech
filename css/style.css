@@ -72,7 +72,7 @@ img{
 li, a {
   font-family: "poppins", sans-serif;
   font-size: 16px;
-  color: #454959;
+  color: #3752c0;
   text-decoration: none;
 }
 
@@ -107,12 +107,9 @@ nav{
   text-decoration: none;
 }
 
-a:visited{
-  color: #0C95FA;
-  /* border: 1px solid;
-  border-radius: 50px; */
 
-}
+ 
+
 
 
 /* 
