@@ -338,7 +338,21 @@ Jess Navigation
   }
  
 /*iPhone Page*/
+.item p{
+  font-size: 0.7rem;;
+  padding:0px 0px 0px 12px ;
+}
 
+.item h2{
+  font-size: 1rem;;
+  padding:0px 0px 0px 12px ;
+}
+
+.grid > div:hover{
+  border: solid 10px #9dc2e7;
+  /* background-color: #9dc2e7; */
+    
+}
 
 
 /* Breadcrumb Nav*/
