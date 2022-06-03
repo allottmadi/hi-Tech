@@ -351,7 +351,7 @@ Jess Navigation
 }
 
 #phone{
-  margin:30px 0px 0px 100px;
+  margin:30px 0px 0px 0px;
 }
 
 
@@ -436,6 +436,11 @@ ul.fourStep {
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+}
+
+#list{
+  color: black;
+  font-weight: 100;
 }
 
 footer{
