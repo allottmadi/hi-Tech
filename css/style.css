@@ -347,8 +347,11 @@ Jess Navigation
 
 .grid > div:hover{
   border: solid 10px #9dc2e7;
-  /* background-color: #9dc2e7; */
-    
+  /* background-color: #9dc2e7; */    
+}
+
+#phone{
+  margin:30px 0px 0px 100px;
 }
 
 
